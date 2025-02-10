@@ -20,9 +20,11 @@
   </head>
   <body class="font-sans">
     <!-- header -->
-    <header class="container mx-auto  overflow-hidden bg-warm-coral-transparent lg:bg-transparent">
+    <header
+      class="container mx-auto overflow-hidden bg-warm-coral-transparent lg:bg-transparent"
+    >
       <!-- navbar -->
-      <nav class="lg:mt-12 ">
+      <nav class="lg:mt-12">
         <div class="navbar flex justify-end lg:bg-base-100">
           <div class="lg:flex-1">
             <div class="dropdown">
@@ -91,7 +93,7 @@
               >
                 <img
                   src="./images/slider/bike1.png "
-                  class="max-w-xs md:max-w-sm  rounded-lg"
+                  class="max-w-xs md:max-w-sm rounded-lg"
                 />
 
                 <div class="space-y-4">
@@ -122,11 +124,11 @@
           <div id="slide2" class="carousel-item relative w-full">
             <div class="hero w-full">
               <div
-                class="w-full hero-content flex-col-reverse lg:flex-row-reverse lg:justify-around"
+                class="w-full hero-content flex-col-reverse lg:flex-row-reverse xl:justify-around"
               >
                 <img
                   src="./images/slider/bike2.png "
-                  class="max-w-xs md:max-w-sm  rounded-lg"
+                  class="max-w-xs md:max-w-sm rounded-lg"
                 />
 
                 <div class="space-y-4">
@@ -157,11 +159,11 @@
           <div id="slide3" class="carousel-item relative w-full">
             <div class="hero w-full">
               <div
-                class="w-full hero-content flex-col-reverse lg:flex-row-reverse lg:justify-around"
+                class="w-full hero-content flex-col-reverse lg:flex-row-reverse xl:justify-around"
               >
                 <img
                   src="./images/slider/bike3.png "
-                  class="max-w-xs md:max-w-sm  rounded-lg"
+                  class="max-w-xs md:max-w-sm rounded-lg"
                 />
                 <div class="space-y-4">
                   <p class="lg:hidden max-w-xs lg:max-w-md text-base">
@@ -191,11 +193,11 @@
           <div id="slide4" class="carousel-item relative w-full">
             <div class="hero w-full">
               <div
-                class="w-full hero-content flex-col-reverse lg:flex-row-reverse lg:justify-around"
+                class="w-full hero-content flex-col-reverse lg:flex-row-reverse xl:justify-around"
               >
                 <img
                   src="./images/slider/bike4.png "
-                  class="max-w-xs md:max-w-sm  rounded-lg"
+                  class="max-w-xs md:max-w-sm rounded-lg"
                 />
 
                 <div class="space-y-4">
@@ -225,7 +227,75 @@
         </div>
       </section>
     </header>
-    <main></main>
+    <!-- main section -->
+    <main class="container mx-auto"> 
+      <!-- feature section -->
+      <section class=" mt-28 lg:mt-32">
+        <h1 class="font-semibold text-2xl lg:text-5xl text-center ">Fetured Bikes In This Year</h1>
+        <p class="mt-2 font-semibold text-sm text-btn-primary text-center">Best bike collection</p>
+        <!-- image container -->
+        <div class="mt-24 lg:mt-14 flex flex-col lg:flex-row justify-center items-center space-y-24 lg:space-y-0 lg:space-x-14 xl:space-x-36">
+          <img src="./images/others/feature-bike.png" alt="bike-image" />
+          <img src="./images/others/feature-bike.png" alt="bike-image" />
+          <img src="./images/others/feature-bike.png" alt="bik e-image" />
+        </div>
+      </section>
+      <!-- latest news section -->
+       <section class="mt-20 lg:mt-40">
+        <h1 class="font-semibold text-2xl lg:text-5xl text-center ">Latest News</h1>
+        <!-- cards container -->
+         <div class="mt-11 lg:mt-14 flex flex-col lg:flex-row justify-center items-center space-y-9 lg:space-y-0 lg:space-x-5 px-4 lg:px-0">
+          <!-- card-1 -->
+          <div class="card rounded-md shadow-xl border border-gray-300">
+            <figure class="mx-8 my-4">
+              <img
+              class="w-full h-auto object-cover"
+                src="./images/others/latest1.png"
+                alt="bikes" />
+            </figure>
+            <div class="card-body lg:space-y-6">
+              <h2 class="card-title font-semibold text-2xl">Motorcycles & Scooters</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <div class="card-actions">
+                <button class="btn text-btn-primary bg-white border border-btn-primary px-6 lg:bg-btn-primary lg:text-white text-base">Read More</button>
+              </div>
+            </div>
+          </div>
+            <!-- card-2 -->
+            <div class="card bg-white rounded-md shadow-xl border border-gray-300  ">
+              <figure class="mx-8 my-4">
+                <img
+                class="w-full h-auto object-cover"
+                  src="./images/others/latest1.png"
+                  alt="bikes" />
+              </figure>
+              <div class="card-body lg:space-y-6">
+                <h2 class="card-title font-semibold text-2xl">Motorcycles & Scooters</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                <div class="card-actions">
+                  <button class="btn text-btn-primary bg-white border border-btn-primary px-6 text-base">Read More</button>
+                </div>
+              </div>
+            </div>
+              <!-- card-3 -->
+              <div class="card bg-white rounded-md shadow-xl border border-gray-300  ">
+                <figure class="mx-8 my-4 ">
+                  <img
+                  class="w-full h-auto object-cover"
+                    src="./images/others/latest1.png"
+                    alt="bikes" />
+                </figure>
+                <div class="card-body lg:space-y-6">
+                  <h2 class="card-title font-semibold text-2xl">Motorcycles & Scooters</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                  <div class="card-actions">
+                    <button class="btn text-btn-primary bg-white border border-btn-primary px-6 text-base">Read More</button>
+                  </div>
+                </div>
+              </div>
+         </div>
+       </section>
+    </main>
     <footer></footer>
   </body>
 </html>
